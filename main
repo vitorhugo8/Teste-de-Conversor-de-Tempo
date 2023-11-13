@@ -1,0 +1,11 @@
+numero = int(input("Digite um número: "))
+
+milissegundos = numero
+segundos = numero / 1000
+minutos = segundos / 60
+horas = minutos / 60
+
+print(f"{numero} milissegundos é igual a:")
+print(f"Segundos: {segundos:.2f} s")
+print(f"Minutos: {minutos:.2f} min")
+print(f"Horas: {horas:.2f} h")
